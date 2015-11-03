@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rohan.todoalarm.Display">
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings" android:icon="@drawable/ic_more_vert_white_48dp"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_cancel" android:title="Cancel"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/action_delete" android:title="Delete"
+        android:icon="@drawable/ic_delete_white_48dp"
+        android:orderInCategory="99" app:showAsAction="always" />
+
+    <!--<item android:id="@+id/action_edit" android:title="Edit"-->
+        <!--android:icon="@android:drawable/ic_menu_edit"-->
+        <!--android:orderInCategory="97" app:showAsAction="always" -->
+
+
+</menu>

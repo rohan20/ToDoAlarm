@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.rohan.todoalarm.Edit">
+
+    <item android:id="@+id/action_save" android:title="Save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/action_cancel" android:title="Cancel"
+        android:orderInCategory="100" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstScreen"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/primary"
+            android:title="Your To Do List"
+            android:gravity="center"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:id="@+id/toolbar">
+        </android.support.v7.widget.Toolbar>
+
+    </RelativeLayout>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="30sp"
+        android:text="Click on the ' + ' sign\nto add a new To Do"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <ListView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:dividerHeight="0.5dp"
+        android:layout_height="0dp"
+        android:divider="#000000"
+        android:id="@+id/toDoListView"
+        android:layout_weight="4" >
+
+    </ListView>
+
+</LinearLayout>
+
